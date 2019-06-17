@@ -28,6 +28,7 @@ ro.frp.pst=/dev/block/platform/soc.0/7824900.sdhci/by-name/frp
 
 # Perf
 ro.sys.fw.dex2oat_thread_count=4
+ro.min_freq_0=200000
 
 # Radio
 persist.radio.multisim.config=dsds
