@@ -232,10 +232,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     vendor.lineage.trust@1.0-service
 
-# Thermal
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/thermal-engine.conf:$(TARGET_COPY_OUT_VENDOR)/etc/thermal-engine.conf
-
 # USB ID
 PRODUCT_DEFAULT_PROPERTY_OVERRIDES += \
     ro.usb.id.midi=90BA \
