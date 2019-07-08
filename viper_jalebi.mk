@@ -22,6 +22,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit from jalebi device
 $(call inherit-product, device/yu/jalebi/device.mk)
 
+# Inherit System Prop for jalebi 
+$(call inherit-product, device/yu/jalebi/system_prop.mk)
+
 # Must define platform variant before including any common things
 TARGET_BOARD_PLATFORM_VARIANT := msm8916
 
@@ -39,3 +42,4 @@ PRODUCT_GMS_CLIENTID_BASE := android-micromax
 TARGET_VENDOR_PRODUCT_NAME := YUNIQUE
 TARGET_VENDOR_DEVICE_NAME := YUNIQUE
 PRODUCT_BUILD_PROP_OVERRIDES += TARGET_DEVICE=YUNIQUE PRODUCT_NAME=YUNIQUE
+
